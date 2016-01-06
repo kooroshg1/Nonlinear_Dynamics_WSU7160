@@ -1,0 +1,718 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.13)  17 DEC 2015 10:11
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen111
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen120
+\calc@Bdimen=\dimen121
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count105
+\calc@Cskip=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count106
+\l_MT_multwidth_dim=\dimen122
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen123
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen124
+\l_MT_above_intertext_sep=\dimen125
+\l_MT_below_intertext_sep=\dimen126
+\l_MT_above_shortintertext_sep=\dimen127
+\l_MT_below_shortintertext_sep=\dimen128
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count107
+))
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen131
+\captionmargin@=\dimen132
+\captionwidth=\dimen133
+\caption@tempdima=\dimen134
+\caption@indent=\dimen135
+\caption@parindent=\dimen136
+\caption@hangindent=\dimen137
+)
+\c@ContinuedFloat=\count108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count109
+\c@subtable=\count110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count111
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count112
+\lst@gtempboxa=\box30
+\lst@token=\toks23
+\lst@length=\count113
+\lst@currlwidth=\dimen138
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen139
+\lst@width=\dimen140
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen141
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip50
+\f@ncyO@elh=\skip51
+\f@ncyO@erh=\skip52
+\f@ncyO@olh=\skip53
+\f@ncyO@orh=\skip54
+\f@ncyO@elf=\skip55
+\f@ncyO@erf=\skip56
+\f@ncyO@olf=\skip57
+\f@ncyO@orf=\skip58
+)
+Package color Info: Redefining color red on input line 25.
+Package color Info: Redefining color green on input line 26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+) (./report.aux
+(./Q1.aux) (./Q2.aux) (./Q3.aux))
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(49.79231pt, 497.92325pt, 49.79231pt)
+* v-part:(T,H,B)=(49.79231pt, 745.46222pt, 49.79231pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=497.92325pt
+* \textheight=745.46222pt
+* \oddsidemargin=-22.47768pt
+* \evensidemargin=-22.47768pt
+* \topmargin=-59.47768pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen143
+\scratchbox=\box32
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen144
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count126
+\openout2 = `Q1.aux'.
+
+
+(./Q1.tex
+LaTeX Font Info:    Try loading font information for U+wasy on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package epstopdf Info: Source file: <figure/Q1/F_1.eps>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 24593 bytes
+(epstopdf)             Output file: <figure/Q1/F_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 15107 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/Q1/F_1-eps-converte
+d-to.pdf figure/Q1/F_1.eps>
+(epstopdf)             \includegraphics on input line 42.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/Q1/F_1-eps-converted-to.pdf, id=1, 1409.265pt x 751.80875pt>
+File: figure/Q1/F_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/Q1/F_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Q1/F_1-eps-converted-to.pdf used on input line 
+42.
+(pdftex.def)             Requested size: 227.62204pt x 121.42755pt.
+Package epstopdf Info: Source file: <figure/Q1/X_1.eps>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 25392 bytes
+(epstopdf)             Output file: <figure/Q1/X_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 15900 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/Q1/X_1-eps-converte
+d-to.pdf figure/Q1/X_1.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/Q1/X_1-eps-converted-to.pdf, id=2, 1407.2575pt x 751.80875pt>
+File: figure/Q1/X_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/Q1/X_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Q1/X_1-eps-converted-to.pdf used on input line 
+46.
+(pdftex.def)             Requested size: 227.62204pt x 121.59962pt.
+Package epstopdf Info: Source file: <figure/Q1/F_-2.eps>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 24692 bytes
+(epstopdf)             Output file: <figure/Q1/F_-2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 15161 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/Q1/F_-2-eps-convert
+ed-to.pdf figure/Q1/F_-2.eps>
+(epstopdf)             \includegraphics on input line 59.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/Q1/F_-2-eps-converted-to.pdf, id=3, 1322.9425pt x 703.62875pt>
+File: figure/Q1/F_-2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/Q1/F_-2-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Q1/F_-2-eps-converted-to.pdf used on input line
+ 59.
+(pdftex.def)             Requested size: 227.62204pt x 121.05399pt.
+Package epstopdf Info: Source file: <figure/Q1/X_-2.eps>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 26140 bytes
+(epstopdf)             Output file: <figure/Q1/X_-2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 15083 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/Q1/X_-2-eps-convert
+ed-to.pdf figure/Q1/X_-2.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/Q1/X_-2-eps-converted-to.pdf, id=4, 1383.1675pt x 703.62875pt>
+File: figure/Q1/X_-2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/Q1/X_-2-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Q1/X_-2-eps-converted-to.pdf used on input line
+ 63.
+(pdftex.def)             Requested size: 227.62204pt x 115.7931pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <figure/Q1/bifurcation.eps>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 25405 bytes
+(epstopdf)             Output file: <figure/Q1/bifurcation-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-12-12 13:54:30
+(epstopdf)                    size: 17658 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/Q1/bifurcation-eps-
+converted-to.pdf figure/Q1/bifurcation.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+<figure/Q1/bifurcation-eps-converted-to.pdf, id=5, 1260.71pt x 703.62875pt>
+File: figure/Q1/bifurcation-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/Q1/bifurcation-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Q1/bifurcation-eps-converted-to.pdf used on inp
+ut line 75.
+(pdftex.def)             Requested size: 341.43306pt x 190.56207pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./figure/Q1/F_1-eps-converted-to.pdf> <./figure/Q1/X_1-eps-converted-to.pdf>]
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./figure/Q1/F_-2-eps-converted-to.pdf> <./figure/Q1/X_-2-eps-converted-to.p
+df> <./figure/Q1/bifurcation-eps-converted-to.pdf>] (./code/Q1.py
+Overfull \hbox (5.66714pt too wide) in paragraph at lines 45--46
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+
+Overfull \hbox (12.56564pt too wide) in paragraph at lines 48--49
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][] 
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3
+
+]
+\openout2 = `Q2.aux'.
+
+ (./Q2.tex
+<figure/Q2/minimize_residual.png, id=172, 619.56468pt x 511.9125pt>
+File: figure/Q2/minimize_residual.png Graphic file (type png)
+
+<use figure/Q2/minimize_residual.png>
+Package pdftex.def Info: figure/Q2/minimize_residual.png used on input line 52.
+
+(pdftex.def)             Requested size: 284.52756pt x 235.08424pt.
+Package epstopdf Info: Source file: <figure/Q2/convergence_study.eps>
+(epstopdf)                    date: 2015-12-13 14:13:03
+(epstopdf)                    size: 32292 bytes
+(epstopdf)             Output file: <figure/Q2/convergence_study-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-12-13 14:13:03
+(epstopdf)                    size: 71716 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/Q2/convergence_stud
+y-eps-converted-to.pdf figure/Q2/convergence_study.eps>
+(epstopdf)             \includegraphics on input line 62.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/Q2/convergence_study-eps-converted-to.pdf, id=174, 1294.8375pt x 683.55
+376pt>
+File: figure/Q2/convergence_study-eps-converted-to.pdf Graphic file (type pdf)
+ <use figure/Q2/convergence_study-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Q2/convergence_study-eps-converted-to.pdf used 
+on input line 62.
+(pdftex.def)             Requested size: 284.52756pt x 150.20497pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4
+
+ <./figure/Q2/minimize_residual.png>]
+Package epstopdf Info: Source file: <figure/Q2/HB_verification.eps>
+(epstopdf)                    date: 2015-12-13 14:13:03
+(epstopdf)                    size: 30973 bytes
+(epstopdf)             Output file: <figure/Q2/HB_verification-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2015-12-13 14:13:03
+(epstopdf)                    size: 23203 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/Q2/HB_verification-
+eps-converted-to.pdf figure/Q2/HB_verification.eps>
+(epstopdf)             \includegraphics on input line 72.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/Q2/HB_verification-eps-converted-to.pdf, id=181, 1280.785pt x 727.71875
+pt>
+File: figure/Q2/HB_verification-eps-converted-to.pdf Graphic file (type pdf)
+ <use figure/Q2/HB_verification-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Q2/HB_verification-eps-converted-to.pdf used on
+ input line 72.
+(pdftex.def)             Requested size: 284.52756pt x 161.65318pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./figure/Q2/convergence_study-eps-converted-to.pdf> <./figure/Q2/HB_verific
+ation-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure/Q2/HB_resultVerification.eps>
+(epstopdf)                    date: 2015-12-13 14:13:03
+(epstopdf)                    size: 34126 bytes
+(epstopdf)             Output file: <figure/Q2/HB_resultVerification-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2015-12-13 14:13:03
+(epstopdf)                    size: 24815 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/Q2/HB_resultVerific
+ation-eps-converted-to.pdf figure/Q2/HB_resultVerification.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/Q2/HB_resultVerification-eps-converted-to.pdf, id=255, 1840.8775pt x 10
+15.795pt>
+File: figure/Q2/HB_resultVerification-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figure/Q2/HB_resultVerification-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Q2/HB_resultVerification-eps-converted-to.pdf u
+sed on input line 107.
+(pdftex.def)             Requested size: 284.52756pt x 156.9971pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./figure/Q2/HB_resultVerification-eps-converted-to.pdf>] (./code/Q2.py
+Overfull \hbox (12.56564pt too wide) in paragraph at lines 31--32
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7
+
+]
+Overfull \hbox (5.66714pt too wide) in paragraph at lines 72--73
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] 
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+\openout2 = `Q3.aux'.
+
+ (./Q3.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9
+
+])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10] (./code/Q3.py)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11
+
+] (./report.aux (./Q1.aux) (./Q2.aux) (./Q3.aux)) ) 
+Here is how much of TeX's memory you used:
+ 6397 strings out of 494985
+ 94420 string characters out of 6180356
+ 216638 words of memory out of 5000000
+ 9480 multiletter control sequences out of 15000+600000
+ 11678 words of font info for 46 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 38i,12n,43p,958b,1571s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (11 pages, 392906 bytes).
+PDF statistics:
+ 366 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+

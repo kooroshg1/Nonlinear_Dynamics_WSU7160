@@ -1,0 +1,97 @@
+\textbf{Problem definition}:
+Apply Floquet theory to your solution of the preceding problem to determine whether the solution is stable or not.
+
+\noindent\hrulefill
+
+% -------------------------------------------------------------------
+\textbf{Solution approach:}
+Equation \eqref{eq:Q2_GE} is a nonautonomous system. To apply Floquet theory, we need to convert this system to an autonomous system by defining a new state for time. This is done by setting $3t$ equal to $x_3$. The state equations are written as
+%
+\begin{equation}\label{eq:Q3_GEinStateSpace}
+\begin{cases}
+	\dot{x}_1 = x_2 \\
+	\dot{x}_2 = - \left( 0.01 + \dfrac{\alpha}{100} \right) x_2
+						-x_1 - \dfrac{\alpha}{10} x_1^3 + \sin x_3 \\
+	\dot{x}_3 = 3
+\end{cases}
+\end{equation}
+% 
+We assume the solution of Equation \eqref{eq:Q2_GE} is $X_0$. A disturbance, $Y(t)$ is imposed on $X_0$ as follows
+%
+\begin{equation}\label{eq:Q3_disturbance}
+	X(t) = X_0 + Y(t)
+\end{equation}
+%
+It should be noted that we are only putting a disturbance on $x_1$ and $x_2$. Therefore, $y_3(t)$ is equal to zero. Substituting Equation \eqref{eq:Q3_disturbance} into \eqref{eq:Q3_GEinStateSpace} we get the following
+%
+\begin{equation*}
+\begin{cases}
+	\dot{x}_{01} + \dot{y}_1 = x_{02} + y_{2} \\
+	\dot{x}_{02} + \dot{y}_2 = - \left( 0.01 + \dfrac{\alpha}{100} \right) (x_{02} + y_2)
+						                          -x_{01} - y_1 
+						                          -\dfrac{\alpha}{10} (x_{01} + y_1)^3 + 
+						                          \sin \left( x_{03} + y_3 \right) \\
+	\dot{x}_{03} + \dot{y}_3 = 3
+\end{cases}
+\end{equation*}
+%
+Since $X_0$ is the solution of Equation \eqref{eq:Q2_GE}, above can be rewritten as
+%
+\begin{equation}\label{eq:Q3_disturbedStateSpace}
+\begin{cases}
+	\dot{y}_1 = y_{2} \\
+	\dot{y}_2 = - \left( 0.01 + \dfrac{\alpha}{100} \right) y_2
+						- y_1 
+						-\dfrac{\alpha}{10} \left(3 y_1 x_{01}^2 + 3 y_1^2 x_{01} + y_1^3 \right) \\
+	\dot{y}_3 = 0
+\end{cases}
+\end{equation}
+%
+We linearise Equation \eqref{eq:Q3_disturbedStateSpace} at its stationary point at $\left[ 0, 0, 0 \right]$. The linearised equation is written in the matrix form as follows.
+%
+\begin{equation}\label{eq:Q3_disturbedMatrixForm}
+\begin{bmatrix}
+	\dot{y}_1 \\
+	\dot{y}_2 \\
+	\dot{y}_3
+\end{bmatrix} = 
+\begin{bmatrix}
+	0 & 1 & 0 \\
+	-\left( 1 + \dfrac{3 \alpha}{10} x_{01}^2 \right) & -\left( 0.01 + \dfrac{\alpha}{100} \right) & 0 \\
+	0 & 0 & 0
+\end{bmatrix}
+\begin{bmatrix}
+	y_1 \\
+	y_2 \\
+	y_3
+\end{bmatrix}
+\end{equation}
+%
+where $x_{01}$ is the displacement result calculated by solving Equation \eqref{eq:Q2_GE} as shown in Equation \eqref{eq:Q2_solution}. Equation \eqref{eq:Q3_disturbedMatrixForm} is solved numerically using \texttt{scipy.integrate.odeint} from $0$ and $2 \pi$. The state equations are required to be solved three times (since we have three states) using different boundary conditions. The boundary conditions for each of these cases are defined by perturbing one of the states by unity and setting the rest equal to zero. The solution of the last time step for each is saved and put in the rows of the matrix $\Phi$. The $\Phi$ matrix for this problem is calculated as
+%
+\begin{equation}
+\Phi = 
+\begin{bmatrix}
+	0.666 & -0.050 & 0 \\
+	0.048 & 0.659 & 0 \\
+	0 & 0 & 1
+\end{bmatrix}
+\end{equation}
+%
+The eigenvalues of this matrix, define the characteristics of the solution. These eigenvalues are shown in the following equation.
+%
+\begin{align*}
+	\lambda_1 &= 0.662 + 0.049 i \\
+	\lambda_2 &= 0.662 - 0.049 i \\
+	\lambda_3 &= 1.000
+\end{align*}
+%
+For the solution to be stable, all the eigenvalues except one need to be inside the unit circle in the complex plain. It is easier to look at the \emph{norm} of the eigenvalues. If the norm is less than zero it means that the solution is stable. In other words, the disturbance dies out when the time expands. The norm of eigenvalues are shown in the following equation.
+%
+\begin{align*}
+	|\lambda_1| &= 0.664 \\
+	|\lambda_2| &= 0.664 \\
+	|\lambda_3| &= 1.000
+\end{align*}
+%
+As shown here, all the eigenvalues except than one of them is less than unity. Therefore, we can conclude than the solution is stable. This can verified by looking the the numerical solution of the system as well. The \texttt{python} code used to this problem is available in the following pages.

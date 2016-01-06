@@ -1,0 +1,25 @@
+\textbf{Problem definition}:
+Write a program for fixed point continuation to generate both the stable and unstable branch of
+%
+\begin{equation}
+	\dot{x} = \mu - x^2
+\end{equation}
+%
+\noindent\hrulefill
+
+% -------------------------------------------------------------------
+\textbf{Solution approach:}
+We use sequential continuation for this problem. Each of the stable and unstable branches are tracked by starting from a location on them. It should be noted that due to the turning point at $\mu = 0$ we cannot get both branches using same initial point since we cannot got pass the turning point.
+
+To track the stable branch, we choose our initial guess at $\mu_0 = 0.01$ and $x_0 = 0.1$. The $x$ value is then updated for new value of $\mu_1 = 0.011$ using the following equation.
+%
+\begin{equation}
+	x_1^{k+1} = x_1^{k} + r \Delta x^k
+\end{equation}
+%
+where we set $x_1^0$ equal to $x_0$. $r$ is the relaxation parameter that defines how much we can go in $\Delta x^k$ direction. $\Delta x^k$ is calculated using the following formula.
+%
+\begin{equation}
+	F
+\end{equation}
+%

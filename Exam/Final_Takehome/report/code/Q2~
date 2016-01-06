@@ -1,0 +1,68 @@
+__author__ = 'koorosh gobal'
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import minimize
+from scipy.integrate import odeint
+# # ----------------------------------------
+font = {'family' : 'monospace',
+        'weight' : 'normal',
+        'size'   : 22}
+plt.rc('font', **font)
+linewidth = 5.0
+markersize = 15
+skip = 10
+# # # ---------------------------------------
+N = 29
+T = 1 * 2 * np.pi
+t = np.linspace(0, T, N+1)
+t = t[0:-1]
+f = np.sin(3*t)
+F = np.fft.fft(f)
+Omega = 2*np.pi / T * np.fft.fftfreq(N, 1/N)
+x0 = np.ones(N)
+alpha = 12
+
+def residual(x):
+    global residualHist
+    X = np.fft.fft(x)
+    dx = np.fft.ifft(np.multiply(1j * Omega, X))
+    ddx = np.fft.ifft(np.multiply(-Omega**2, X))
+    Residual = ddx + (0.01 + alpha / 100) * dx + x + alpha / 10 * x**3 - f
+    Residual = np.sum(np.abs((Residual**2)))
+    return Residual
+res = minimize(residual, x0, method='SLSQP')
+xSol = res.x
+
+# Converting result to sine and cosines
+n = 3
+X = np.fft.fft(xSol)
+X = np.append(X[:n+1], X[-n:]) / N
+OMEGA = np.append(Omega[:n+1], Omega[-n:]).reshape(1, -1)
+tReconst = np.linspace(0, 2*np.pi, 100).reshape(-1, 1)
+OMEGAt = tReconst.dot(OMEGA).T
+xReconst = X[0]
+for i in range(1, OMEGA.shape[1]):
+    xReconst = xReconst + np.real(X[i]) * np.cos(OMEGAt[i, :]) - np.imag(X[i]) * np.sin(OMEGAt[i, :])
+np.savetxt('X.txt', X*2)
+np.savetxt('OMEGA.txt', OMEGA.T)
+
+# Numerical solution
+def RHS(X, t=0.0):
+    x1, x2 = X
+    x1dot = x2
+    x2dot = -(0.01 + alpha / 100) * x2 - x1 - alpha / 10 * x1**3 + np.sin(3*t)
+    return [x1dot, x2dot]
+
+ta = np.linspace(0.0, 19*2*np.pi + t[-1], 5000)
+sol = odeint(RHS, [0, 0], ta)
+plt.figure()
+plt.plot(19*2*np.pi + t, res.x, 'k',
+         ta[0:-1:skip], sol[0:-1:skip, 0], 'wo',
+         19*2*np.pi + tReconst, xReconst, 'k--',
+         lw=linewidth, ms=markersize, mew=linewidth)
+plt.legend(['HB', 'Time integration', 'HB with 3 Harmonics'], loc='best')
+plt.xlabel('Time')
+plt.ylabel('Displacement')
+plt.xlim([19*2*np.pi + t[0], 19*2*np.pi + t[-1]])
+plt.title(r'$\alpha = 12$')
+plt.show()

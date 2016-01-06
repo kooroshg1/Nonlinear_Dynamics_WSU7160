@@ -1,0 +1,49 @@
+\documentclass[12pt, a4paper]{report} % extreport
+\usepackage[margin=1.75cm]{geometry}
+\usepackage{amsmath, mathtools}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{wasysym}
+\usepackage[procnames]{listings}
+\usepackage{color}
+\usepackage{multirow}
+\setlength\parindent{24pt}
+\usepackage{amsfonts}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Nonlinear Dynamics - Final exam}
+\lhead{Koorosh Gobal}
+\rfoot{Page \thepage}
+\lfoot{\today}
+
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{0,0,113}
+\definecolor{red}{RGB}{160,0,0}
+\definecolor{green}{RGB}{0,150,0}
+ 
+\lstset{language=Python, 
+        basicstyle=\ttfamily\small, 
+        keywordstyle=\color{keywords},
+        commentstyle=\color{comments},
+        stringstyle=\color{red},
+        showstringspaces=false,
+        identifierstyle=\color{green},
+        procnamekeys={def,class}}
+% ===============================================================
+\begin{document}
+\include{Q1}
+\newpage
+\lstinputlisting{code/Q1.py}
+\newpage
+\include{Q2}
+\newpage
+\lstinputlisting{code/Q2.py}
+\newpage
+\include{Q3}
+\newpage
+\lstinputlisting{code/Q3.py}
+\end{document}

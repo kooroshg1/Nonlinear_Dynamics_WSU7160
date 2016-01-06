@@ -1,0 +1,1100 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.13)  7 OCT 2015 16:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen111
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen120
+\calc@Bdimen=\dimen121
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count105
+\calc@Cskip=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count106
+\l_MT_multwidth_dim=\dimen122
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen123
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen124
+\l_MT_above_intertext_sep=\dimen125
+\l_MT_below_intertext_sep=\dimen126
+\l_MT_above_shortintertext_sep=\dimen127
+\l_MT_below_shortintertext_sep=\dimen128
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count107
+))
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen131
+\captionmargin@=\dimen132
+\captionwidth=\dimen133
+\caption@tempdima=\dimen134
+\caption@indent=\dimen135
+\caption@parindent=\dimen136
+\caption@hangindent=\dimen137
+)
+\c@ContinuedFloat=\count108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count109
+\c@subtable=\count110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count111
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count112
+\lst@gtempboxa=\box30
+\lst@token=\toks23
+\lst@length=\count113
+\lst@currlwidth=\dimen138
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen139
+\lst@width=\dimen140
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen141
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip50
+\f@ncyO@elh=\skip51
+\f@ncyO@erh=\skip52
+\f@ncyO@olh=\skip53
+\f@ncyO@orh=\skip54
+\f@ncyO@elf=\skip55
+\f@ncyO@erf=\skip56
+\f@ncyO@olf=\skip57
+\f@ncyO@orf=\skip58
+)
+Package color Info: Redefining color red on input line 24.
+Package color Info: Redefining color green on input line 25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+) (./report.aux
+
+LaTeX Warning: Label `eq:divergence3' multiply defined.
+
+
+LaTeX Warning: Label `eq:divergence3' multiply defined.
+
+)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(49.79231pt, 497.92325pt, 49.79231pt)
+* v-part:(T,H,B)=(49.79231pt, 745.46222pt, 49.79231pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=497.92325pt
+* \textheight=745.46222pt
+* \oddsidemargin=-22.47768pt
+* \evensidemargin=-22.47768pt
+* \topmargin=-59.47768pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen143
+\scratchbox=\box32
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen144
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count126
+LaTeX Font Info:    Try loading font information for U+wasy on input line 43.
+
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 147.
+
+Package epstopdf Info: Source file: <figure/phase_portrait_1.eps>
+(epstopdf)                    date: 2015-10-05 16:40:40
+(epstopdf)                    size: 502090 bytes
+(epstopdf)             Output file: <figure/phase_portrait_1-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-05 16:43:30
+(epstopdf)                    size: 154297 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_1-ep
+s-converted-to.pdf figure/phase_portrait_1.eps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_1-eps-converted-to.pdf, id=13, 1387.1825pt x 1328.965pt>
+File: figure/phase_portrait_1-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/phase_portrait_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_1-eps-converted-to.pdf used on i
+nput line 186.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_2.eps>
+(epstopdf)                    date: 2015-10-05 16:40:59
+(epstopdf)                    size: 513509 bytes
+(epstopdf)             Output file: <figure/phase_portrait_2-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-05 16:43:30
+(epstopdf)                    size: 157839 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_2-ep
+s-converted-to.pdf figure/phase_portrait_2.eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_2-eps-converted-to.pdf, id=14, 1387.1825pt x 1328.965pt>
+File: figure/phase_portrait_2-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/phase_portrait_2-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_2-eps-converted-to.pdf used on i
+nput line 190.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_3.eps>
+(epstopdf)                    date: 2015-10-05 16:41:15
+(epstopdf)                    size: 493459 bytes
+(epstopdf)             Output file: <figure/phase_portrait_3-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-05 16:43:30
+(epstopdf)                    size: 151102 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_3-ep
+s-converted-to.pdf figure/phase_portrait_3.eps>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_3-eps-converted-to.pdf, id=15, 1387.1825pt x 1328.965pt>
+File: figure/phase_portrait_3-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/phase_portrait_3-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_3-eps-converted-to.pdf used on i
+nput line 195.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_4.eps>
+(epstopdf)                    date: 2015-10-05 16:41:38
+(epstopdf)                    size: 451326 bytes
+(epstopdf)             Output file: <figure/phase_portrait_4-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-05 16:43:30
+(epstopdf)                    size: 131906 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_4-ep
+s-converted-to.pdf figure/phase_portrait_4.eps>
+(epstopdf)             \includegraphics on input line 199.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_4-eps-converted-to.pdf, id=16, 1387.1825pt x 1328.965pt>
+File: figure/phase_portrait_4-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/phase_portrait_4-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_4-eps-converted-to.pdf used on i
+nput line 199.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_5.eps>
+(epstopdf)                    date: 2015-10-05 16:42:30
+(epstopdf)                    size: 384573 bytes
+(epstopdf)             Output file: <figure/phase_portrait_5-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-05 16:43:31
+(epstopdf)                    size: 99700 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_5-ep
+s-converted-to.pdf figure/phase_portrait_5.eps>
+(epstopdf)             \includegraphics on input line 204.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_5-eps-converted-to.pdf, id=17, 1387.1825pt x 1328.965pt>
+File: figure/phase_portrait_5-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/phase_portrait_5-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_5-eps-converted-to.pdf used on i
+nput line 204.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_6.eps>
+(epstopdf)                    date: 2015-10-05 16:56:53
+(epstopdf)                    size: 423254 bytes
+(epstopdf)             Output file: <figure/phase_portrait_6-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-05 16:57:08
+(epstopdf)                    size: 115233 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_6-ep
+s-converted-to.pdf figure/phase_portrait_6.eps>
+(epstopdf)             \includegraphics on input line 208.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_6-eps-converted-to.pdf, id=18, 1387.1825pt x 1328.965pt>
+File: figure/phase_portrait_6-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/phase_portrait_6-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_6-eps-converted-to.pdf used on i
+nput line 208.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <./figure/phase_portrait_1-eps-converted-to.pdf> <./figure/phase_portrait_2-
+eps-converted-to.pdf> <./figure/phase_portrait_3-eps-converted-to.pdf> <./figur
+e/phase_portrait_4-eps-converted-to.pdf> <./figure/phase_portrait_5-eps-convert
+ed-to.pdf> <./figure/phase_portrait_6-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 218.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 218.
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+Package epstopdf Info: Source file: <figure/phase_portrait_around_x10_00_x20_0_
+1.eps>
+(epstopdf)                    date: 2015-10-07 14:53:11
+(epstopdf)                    size: 369111 bytes
+(epstopdf)             Output file: <figure/phase_portrait_around_x10_00_x20_0_
+1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 14:59:07
+(epstopdf)                    size: 97301 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_arou
+nd_x10_00_x20_0_1-eps-converted-to.pdf figure/phase_portrait_around_x10_00_x20_
+0_1.eps>
+(epstopdf)             \includegraphics on input line 276.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_around_x10_00_x20_0_1-eps-converted-to.pdf, id=130, 1387
+.1825pt x 1328.965pt>
+File: figure/phase_portrait_around_x10_00_x20_0_1-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figure/phase_portrait_around_x10_00_x20_0_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_around_x10_00_x20_0_1-eps-conver
+ted-to.pdf used on input line 276.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_l2nlcomp1.eps>
+(epstopdf)                    date: 2015-10-07 14:52:48
+(epstopdf)                    size: 367824 bytes
+(epstopdf)             Output file: <figure/phase_portrait_l2nlcomp1-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2015-10-07 14:59:08
+(epstopdf)                    size: 96164 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_l2nl
+comp1-eps-converted-to.pdf figure/phase_portrait_l2nlcomp1.eps>
+(epstopdf)             \includegraphics on input line 280.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_l2nlcomp1-eps-converted-to.pdf, id=131, 1387.1825pt x 13
+28.965pt>
+File: figure/phase_portrait_l2nlcomp1-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figure/phase_portrait_l2nlcomp1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_l2nlcomp1-eps-converted-to.pdf u
+sed on input line 280.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_around_x10_00_x20_0_
+2.eps>
+(epstopdf)                    date: 2015-10-07 14:55:31
+(epstopdf)                    size: 355652 bytes
+(epstopdf)             Output file: <figure/phase_portrait_around_x10_00_x20_0_
+2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 14:59:08
+(epstopdf)                    size: 88638 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_arou
+nd_x10_00_x20_0_2-eps-converted-to.pdf figure/phase_portrait_around_x10_00_x20_
+0_2.eps>
+(epstopdf)             \includegraphics on input line 285.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_around_x10_00_x20_0_2-eps-converted-to.pdf, id=132, 1387
+.1825pt x 1328.965pt>
+File: figure/phase_portrait_around_x10_00_x20_0_2-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figure/phase_portrait_around_x10_00_x20_0_2-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_around_x10_00_x20_0_2-eps-conver
+ted-to.pdf used on input line 285.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_l2nlcomp2.eps>
+(epstopdf)                    date: 2015-10-07 14:53:42
+(epstopdf)                    size: 351998 bytes
+(epstopdf)             Output file: <figure/phase_portrait_l2nlcomp2-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2015-10-07 14:59:08
+(epstopdf)                    size: 80240 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_l2nl
+comp2-eps-converted-to.pdf figure/phase_portrait_l2nlcomp2.eps>
+(epstopdf)             \includegraphics on input line 289.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_l2nlcomp2-eps-converted-to.pdf, id=133, 1387.1825pt x 13
+28.965pt>
+File: figure/phase_portrait_l2nlcomp2-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figure/phase_portrait_l2nlcomp2-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_l2nlcomp2-eps-converted-to.pdf u
+sed on input line 289.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_around_x10_00_x20_0_
+3.eps>
+(epstopdf)                    date: 2015-10-07 14:57:47
+(epstopdf)                    size: 355686 bytes
+(epstopdf)             Output file: <figure/phase_portrait_around_x10_00_x20_0_
+3-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 14:59:08
+(epstopdf)                    size: 89595 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_arou
+nd_x10_00_x20_0_3-eps-converted-to.pdf figure/phase_portrait_around_x10_00_x20_
+0_3.eps>
+(epstopdf)             \includegraphics on input line 294.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_around_x10_00_x20_0_3-eps-converted-to.pdf, id=134, 1387
+.1825pt x 1328.965pt>
+File: figure/phase_portrait_around_x10_00_x20_0_3-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figure/phase_portrait_around_x10_00_x20_0_3-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_around_x10_00_x20_0_3-eps-conver
+ted-to.pdf used on input line 294.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_l2nlcomp3.eps>
+(epstopdf)                    date: 2015-10-07 14:55:56
+(epstopdf)                    size: 352666 bytes
+(epstopdf)             Output file: <figure/phase_portrait_l2nlcomp3-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2015-10-07 14:59:08
+(epstopdf)                    size: 86533 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_l2nl
+comp3-eps-converted-to.pdf figure/phase_portrait_l2nlcomp3.eps>
+(epstopdf)             \includegraphics on input line 298.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_l2nlcomp3-eps-converted-to.pdf, id=135, 1387.1825pt x 13
+28.965pt>
+File: figure/phase_portrait_l2nlcomp3-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figure/phase_portrait_l2nlcomp3-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_l2nlcomp3-eps-converted-to.pdf u
+sed on input line 298.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Overfull \vbox (8.4969pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./figure/phase_portrait_around_x10_00_x20_0_1-eps-converted-to.pdf> <./figu
+re/phase_portrait_l2nlcomp1-eps-converted-to.pdf> <./figure/phase_portrait_arou
+nd_x10_00_x20_0_2-eps-converted-to.pdf> <./figure/phase_portrait_l2nlcomp2-eps-
+converted-to.pdf> <./figure/phase_portrait_around_x10_00_x20_0_3-eps-converted-
+to.pdf> <./figure/phase_portrait_l2nlcomp3-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+Package epstopdf Info: Source file: <figure/phase_portrait_around_x10_99_x20_99
+_1.eps>
+(epstopdf)                    date: 2015-10-07 15:03:55
+(epstopdf)                    size: 352311 bytes
+(epstopdf)             Output file: <figure/phase_portrait_around_x10_99_x20_99
+_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:15:03
+(epstopdf)                    size: 59040 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_arou
+nd_x10_99_x20_99_1-eps-converted-to.pdf figure/phase_portrait_around_x10_99_x20
+_99_1.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_around_x10_99_x20_99_1-eps-converted-to.pdf, id=231, 138
+7.1825pt x 1328.965pt>
+File: figure/phase_portrait_around_x10_99_x20_99_1-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use figure/phase_portrait_around_x10_99_x20_99_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_around_x10_99_x20_99_1-eps-conve
+rted-to.pdf used on input line 347.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_l2nlcomp1_1.eps>
+(epstopdf)                    date: 2015-10-07 15:00:12
+(epstopdf)                    size: 366174 bytes
+(epstopdf)             Output file: <figure/phase_portrait_l2nlcomp1_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:15:03
+(epstopdf)                    size: 95677 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_l2nl
+comp1_1-eps-converted-to.pdf figure/phase_portrait_l2nlcomp1_1.eps>
+(epstopdf)             \includegraphics on input line 351.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_l2nlcomp1_1-eps-converted-to.pdf, id=232, 1387.1825pt x 
+1328.965pt>
+File: figure/phase_portrait_l2nlcomp1_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figure/phase_portrait_l2nlcomp1_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_l2nlcomp1_1-eps-converted-to.pdf
+ used on input line 351.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_around_x10_87_x20_87
+_2.eps>
+(epstopdf)                    date: 2015-10-07 15:14:05
+(epstopdf)                    size: 362791 bytes
+(epstopdf)             Output file: <figure/phase_portrait_around_x10_87_x20_87
+_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:15:03
+(epstopdf)                    size: 89772 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_arou
+nd_x10_87_x20_87_2-eps-converted-to.pdf figure/phase_portrait_around_x10_87_x20
+_87_2.eps>
+(epstopdf)             \includegraphics on input line 356.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_around_x10_87_x20_87_2-eps-converted-to.pdf, id=233, 138
+7.1825pt x 1328.965pt>
+File: figure/phase_portrait_around_x10_87_x20_87_2-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use figure/phase_portrait_around_x10_87_x20_87_2-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_around_x10_87_x20_87_2-eps-conve
+rted-to.pdf used on input line 356.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_l2nlcomp2_1.eps>
+(epstopdf)                    date: 2015-10-07 15:11:17
+(epstopdf)                    size: 364013 bytes
+(epstopdf)             Output file: <figure/phase_portrait_l2nlcomp2_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:15:03
+(epstopdf)                    size: 94901 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_l2nl
+comp2_1-eps-converted-to.pdf figure/phase_portrait_l2nlcomp2_1.eps>
+(epstopdf)             \includegraphics on input line 360.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_l2nlcomp2_1-eps-converted-to.pdf, id=234, 1387.1825pt x 
+1328.965pt>
+File: figure/phase_portrait_l2nlcomp2_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figure/phase_portrait_l2nlcomp2_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_l2nlcomp2_1-eps-converted-to.pdf
+ used on input line 360.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_around_x10_74_x20_74
+_3.eps>
+(epstopdf)                    date: 2015-10-07 15:10:54
+(epstopdf)                    size: 350681 bytes
+(epstopdf)             Output file: <figure/phase_portrait_around_x10_74_x20_74
+_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:15:04
+(epstopdf)                    size: 65039 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_arou
+nd_x10_74_x20_74_3-eps-converted-to.pdf figure/phase_portrait_around_x10_74_x20
+_74_3.eps>
+(epstopdf)             \includegraphics on input line 365.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_around_x10_74_x20_74_3-eps-converted-to.pdf, id=235, 138
+7.1825pt x 1328.965pt>
+File: figure/phase_portrait_around_x10_74_x20_74_3-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use figure/phase_portrait_around_x10_74_x20_74_3-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_around_x10_74_x20_74_3-eps-conve
+rted-to.pdf used on input line 365.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_l2nlcomp3_1.eps>
+(epstopdf)                    date: 2015-10-07 15:04:34
+(epstopdf)                    size: 351946 bytes
+(epstopdf)             Output file: <figure/phase_portrait_l2nlcomp3_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:15:04
+(epstopdf)                    size: 82234 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_l2nl
+comp3_1-eps-converted-to.pdf figure/phase_portrait_l2nlcomp3_1.eps>
+(epstopdf)             \includegraphics on input line 369.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_l2nlcomp3_1-eps-converted-to.pdf, id=236, 1387.1825pt x 
+1328.965pt>
+File: figure/phase_portrait_l2nlcomp3_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figure/phase_portrait_l2nlcomp3_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_l2nlcomp3_1-eps-converted-to.pdf
+ used on input line 369.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Overfull \vbox (22.46053pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./figure/phase_portrait_around_x10_99_x20_99_1-eps-converted-to.pdf> <./fig
+ure/phase_portrait_l2nlcomp1_1-eps-converted-to.pdf> <./figure/phase_portrait_a
+round_x10_87_x20_87_2-eps-converted-to.pdf> <./figure/phase_portrait_l2nlcomp2_
+1-eps-converted-to.pdf> <./figure/phase_portrait_around_x10_74_x20_74_3-eps-con
+verted-to.pdf> <./figure/phase_portrait_l2nlcomp3_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure/phase_portrait_around_x10_-99_x20_-
+99_1.eps>
+(epstopdf)                    date: 2015-10-07 15:38:00
+(epstopdf)                    size: 352371 bytes
+(epstopdf)             Output file: <figure/phase_portrait_around_x10_-99_x20_-
+99_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:39:08
+(epstopdf)                    size: 59313 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_arou
+nd_x10_-99_x20_-99_1-eps-converted-to.pdf figure/phase_portrait_around_x10_-99_
+x20_-99_1.eps>
+(epstopdf)             \includegraphics on input line 416.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_around_x10_-99_x20_-99_1-eps-converted-to.pdf, id=332, 1
+387.1825pt x 1328.965pt>
+File: figure/phase_portrait_around_x10_-99_x20_-99_1-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use figure/phase_portrait_around_x10_-99_x20_-99_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_around_x10_-99_x20_-99_1-eps-con
+verted-to.pdf used on input line 416.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/1phase_portrait_l2nlcomp1_1.eps>
+(epstopdf)                    date: 2015-10-07 15:34:13
+(epstopdf)                    size: 365389 bytes
+(epstopdf)             Output file: <figure/1phase_portrait_l2nlcomp1_1-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:39:08
+(epstopdf)                    size: 95346 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/1phase_portrait_l2n
+lcomp1_1-eps-converted-to.pdf figure/1phase_portrait_l2nlcomp1_1.eps>
+(epstopdf)             \includegraphics on input line 420.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/1phase_portrait_l2nlcomp1_1-eps-converted-to.pdf, id=333, 1387.1825pt x
+ 1328.965pt>
+File: figure/1phase_portrait_l2nlcomp1_1-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use figure/1phase_portrait_l2nlcomp1_1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/1phase_portrait_l2nlcomp1_1-eps-converted-to.pd
+f used on input line 420.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_around_x10_-87_x20_-
+87_2.eps>
+(epstopdf)                    date: 2015-10-07 15:34:03
+(epstopdf)                    size: 364436 bytes
+(epstopdf)             Output file: <figure/phase_portrait_around_x10_-87_x20_-
+87_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:39:08
+(epstopdf)                    size: 91111 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_arou
+nd_x10_-87_x20_-87_2-eps-converted-to.pdf figure/phase_portrait_around_x10_-87_
+x20_-87_2.eps>
+(epstopdf)             \includegraphics on input line 425.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_around_x10_-87_x20_-87_2-eps-converted-to.pdf, id=334, 1
+387.1825pt x 1328.965pt>
+File: figure/phase_portrait_around_x10_-87_x20_-87_2-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use figure/phase_portrait_around_x10_-87_x20_-87_2-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_around_x10_-87_x20_-87_2-eps-con
+verted-to.pdf used on input line 425.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/1phase_portrait_l2nlcomp1_2.eps>
+(epstopdf)                    date: 2015-10-07 15:31:15
+(epstopdf)                    size: 360279 bytes
+(epstopdf)             Output file: <figure/1phase_portrait_l2nlcomp1_2-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:39:08
+(epstopdf)                    size: 93216 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/1phase_portrait_l2n
+lcomp1_2-eps-converted-to.pdf figure/1phase_portrait_l2nlcomp1_2.eps>
+(epstopdf)             \includegraphics on input line 429.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/1phase_portrait_l2nlcomp1_2-eps-converted-to.pdf, id=335, 1387.1825pt x
+ 1328.965pt>
+File: figure/1phase_portrait_l2nlcomp1_2-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use figure/1phase_portrait_l2nlcomp1_2-eps-converted-to.pdf>
+Package pdftex.def Info: figure/1phase_portrait_l2nlcomp1_2-eps-converted-to.pd
+f used on input line 429.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/phase_portrait_around_x10_-74_x20_-
+74_3.eps>
+(epstopdf)                    date: 2015-10-07 15:29:50
+(epstopdf)                    size: 351444 bytes
+(epstopdf)             Output file: <figure/phase_portrait_around_x10_-74_x20_-
+74_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:39:09
+(epstopdf)                    size: 65347 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/phase_portrait_arou
+nd_x10_-74_x20_-74_3-eps-converted-to.pdf figure/phase_portrait_around_x10_-74_
+x20_-74_3.eps>
+(epstopdf)             \includegraphics on input line 434.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/phase_portrait_around_x10_-74_x20_-74_3-eps-converted-to.pdf, id=336, 1
+387.1825pt x 1328.965pt>
+File: figure/phase_portrait_around_x10_-74_x20_-74_3-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use figure/phase_portrait_around_x10_-74_x20_-74_3-eps-converted-to.pdf>
+Package pdftex.def Info: figure/phase_portrait_around_x10_-74_x20_-74_3-eps-con
+verted-to.pdf used on input line 434.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+Package epstopdf Info: Source file: <figure/1phase_portrait_l2nlcomp1_3.eps>
+(epstopdf)                    date: 2015-10-07 15:23:52
+(epstopdf)                    size: 351556 bytes
+(epstopdf)             Output file: <figure/1phase_portrait_l2nlcomp1_3-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2015-10-07 15:39:09
+(epstopdf)                    size: 82485 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/1phase_portrait_l2n
+lcomp1_3-eps-converted-to.pdf figure/1phase_portrait_l2nlcomp1_3.eps>
+(epstopdf)             \includegraphics on input line 438.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/1phase_portrait_l2nlcomp1_3-eps-converted-to.pdf, id=337, 1387.1825pt x
+ 1328.965pt>
+File: figure/1phase_portrait_l2nlcomp1_3-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use figure/1phase_portrait_l2nlcomp1_3-eps-converted-to.pdf>
+Package pdftex.def Info: figure/1phase_portrait_l2nlcomp1_3-eps-converted-to.pd
+f used on input line 438.
+(pdftex.def)             Requested size: 227.62204pt x 218.05305pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Overfull \vbox (22.46053pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./figure/phase_portrait_around_x10_-99_x20_-99_1-eps-converted-to.pdf> <./f
+igure/1phase_portrait_l2nlcomp1_1-eps-converted-to.pdf> <./figure/phase_portrai
+t_around_x10_-87_x20_-87_2-eps-converted-to.pdf> <./figure/1phase_portrait_l2nl
+comp1_2-eps-converted-to.pdf> <./figure/phase_portrait_around_x10_-74_x20_-74_3
+-eps-converted-to.pdf> <./figure/1phase_portrait_l2nlcomp1_3-eps-converted-to.p
+df>]
+Package epstopdf Info: Source file: <figure/1.eps>
+(epstopdf)                    date: 2015-10-06 21:27:32
+(epstopdf)                    size: 552100 bytes
+(epstopdf)             Output file: <figure/1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-06 21:28:42
+(epstopdf)                    size: 129397 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/1-eps-converted-to.
+pdf figure/1.eps>
+(epstopdf)             \includegraphics on input line 491.
+Package epstopdf Info: Output file is already uptodate.
+ <figure/1-eps-converted-to.pdf, id=431, 1284.8pt x 1298.8525pt>
+File: figure/1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/1-eps-converted-to.pdf used on input line 491.
+(pdftex.def)             Requested size: 227.62204pt x 230.09705pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./figure/1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure/2.eps>
+(epstopdf)                    date: 2015-10-07 10:18:59
+(epstopdf)                    size: 542930 bytes
+(epstopdf)             Output file: <figure/2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 10:19:33
+(epstopdf)                    size: 131383 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/2-eps-converted-to.
+pdf figure/2.eps>
+(epstopdf)             \includegraphics on input line 544.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/2-eps-converted-to.pdf, id=452, 1284.8pt x 1298.8525pt>
+File: figure/2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/2-eps-converted-to.pdf>
+Package pdftex.def Info: figure/2-eps-converted-to.pdf used on input line 544.
+(pdftex.def)             Requested size: 227.62204pt x 230.09705pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <./figure/2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure/3.eps>
+(epstopdf)                    date: 2015-10-07 10:26:12
+(epstopdf)                    size: 536360 bytes
+(epstopdf)             Output file: <figure/3-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-07 10:26:41
+(epstopdf)                    size: 131287 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/3-eps-converted-to.
+pdf figure/3.eps>
+(epstopdf)             \includegraphics on input line 595.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure/3-eps-converted-to.pdf, id=472, 1284.8pt x 1298.8525pt>
+File: figure/3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure/3-eps-converted-to.pdf>
+Package pdftex.def Info: figure/3-eps-converted-to.pdf used on input line 595.
+(pdftex.def)             Requested size: 227.62204pt x 230.09705pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./figure/3-eps-converted-to.pdf>] (./report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6037 strings out of 494985
+ 95230 string characters out of 6180356
+ 187177 words of memory out of 5000000
+ 9143 multiletter control sequences out of 15000+600000
+ 9435 words of font info for 35 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 38i,14n,43p,1022b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
+Output written on report.pdf (12 pages, 2783665 bytes).
+PDF statistics:
+ 535 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+

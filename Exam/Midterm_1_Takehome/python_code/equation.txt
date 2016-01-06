@@ -1,0 +1,1 @@
+\begin{equation}\left \{ - \sqrt{- \frac{1}{l m_{1}} \left(eps g m_{1} + k l\right)} : 1, \quad \sqrt{- \frac{1}{l m_{1}} \left(eps g m_{1} + k l\right)} : 1\right \}\end{equation}

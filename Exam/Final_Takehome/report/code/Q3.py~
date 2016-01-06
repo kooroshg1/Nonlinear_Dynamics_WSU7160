@@ -1,0 +1,28 @@
+# Python code for Q3 of ME7160
+__author__ = 'koorosh gobal'
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.integrate import odeint
+
+alpha = 12
+t = np.linspace(0.0, 2*np.pi, 100)
+
+# Linearized State Matrix
+def A(Y, t=0.0):
+    y1, y2, y3 = Y
+    x10 = 0.12494 * np.sin(3 * t)
+    y1dot = y2
+    y2dot = -(0.01 + alpha / 100) * y2 - (1 + 0.3 * alpha * x10**2) * y1
+    y3dot = 0
+    return [y1dot, y2dot, y3dot]
+
+# Solving the perturbed equation using different initial conditions
+sol1 = odeint(A, [1, 0, 0], t)
+sol2 = odeint(A, [0, 1, 0], t)
+sol3 = odeint(A, [0, 0, 1], t)
+
+PHI = np.array([sol1[-1, :], sol2[-1, :], sol3[-1, :]])
+eigenValue = np.linalg.eigvals(PHI)
+
+print(eigenValue)
+print(np.abs(eigenValue))

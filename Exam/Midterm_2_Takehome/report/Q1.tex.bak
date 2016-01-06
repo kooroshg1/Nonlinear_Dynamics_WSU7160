@@ -1,0 +1,188 @@
+\textbf{Problem definition}:
+Determine a two-term expansion for the relationship between frequency and response amplitude for the following
+
+%
+\begin{equation}\label{eq:Q1}
+	m \ddot{x} + k_1 x + k_3 x^3 = mg
+\end{equation}
+%
+
+\noindent\hrulefill
+
+% -------------------------------------------------------------------
+\textbf{Solution approach:}
+We rewrite Equation \eqref{eq:Q1} as
+
+%
+\begin{equation}\label{eq:EOM}
+	\ddot{x} + \omega_0^2 x + \epsilon \alpha_2 x^3 = g
+\end{equation}
+%
+
+where
+
+%
+\begin{align*}
+	\omega_0^2 &= \frac{k_1}{m} \\
+	\epsilon \alpha_2 &= \frac{k_3}{m}
+\end{align*}
+%
+
+It is possible to calculate the fixed point ($x_0$) of Equation \eqref{eq:EOM}  and by defining a new variable $u = x + x_0$, move the stationary point of new equation to zero. However, we decided not to do this. As a results, the solutions with will shifted by a constant value. We also assumed that $k_3$ is much smaller than $k_1$ by including a small number, $\epsilon$, in the equation. This is required since the solutions are only valid for small values of $k_3$ and therefore, $\epsilon$.
+
+We define our differential operators as follow:
+
+%
+\begin{subequations}\label{eq:operators}
+\begin{equation}
+	\frac{d}{dt^2} = D_0^2 + 2 \epsilon D_0 D_1 + \epsilon^2 					\left(D_1^2 + 2 D_0 D_2\right)
+\end{equation}
+\begin{equation}
+	\frac{d}{dt} = D_0 + \epsilon D_1
+\end{equation}
+\end{subequations}
+%
+
+We approximate $x$ as follows:
+
+%
+\begin{equation}\label{eq:xApprox}
+	x(t) = x_0 (T_0, T_1, T_2) + 
+	       \epsilon x_1 (T_0, T_1, T_2) +
+	       \epsilon^2 x_2 (T_0, T_1, T_2)
+\end{equation}
+%
+
+Substituting \eqref{eq:operators} and \eqref{eq:xApprox} in \eqref{eq:EOM} and grouping terms in terms of $\epsilon^0$, $\epsilon^1$, and $\epsilon^2$ we get the following equations:
+
+%
+\begin{subequations}\label{eq:EOMeps}
+\begin{align}
+	\epsilon^0 : \quad D_{0}^{2} x_{0} + \omega_{0}^{2} x_{0} &= g
+	\label{eq:EOMeps1}
+	\\
+	\epsilon^1 : \quad D_{0}^{2} x_{1} + \omega_{0}^{2} x_{1} &= -
+				 \left( 
+				 2 D_{0} D_{1} x_{0} + \alpha_{2} x_{0}^{3}
+				 \right)
+	\label{eq:EOMeps2}
+	\\
+	\epsilon^2 : \quad D_{0}^{2} x_{2} + \omega_{0}^{2} x_{2} &= -
+				\left(
+				2 D_{0} D_{1} x_{1} + 2 D_{0} D_{2} x_{0} + 
+				D_{1}^{2} x_{0} + 3 \alpha_{2} x_{0}^{2} x_{1}
+				\right)
+	\label{eq:EOMeps3}
+\end{align}
+\end{subequations}
+%
+
+For Equation \eqref{eq:EOMeps1}, we get the following solution. Here, we assumed that the amplitude of the solution is only a function of $T_1$. 
+
+%
+\begin{equation}\label{eq:x0}
+	x_0 \left( T_0, T_1 \right) = 
+	A(T_1) e^{i\omega_0 T_0} + \frac{g}{\omega_0^2}
+\end{equation}
+%
+
+Substituting Equation \eqref{eq:x0} into Equation \eqref{eq:EOMeps2} we get the following equation
+
+%
+\begin{align}\label{eq:eqForX1}
+D_{0}^{2} x_{1} + \omega_{0}^{2} x_{1} =
+&- \frac{\alpha_{2} g^{3}}{\omega_{0}^{6}} - 
+\frac{3 \alpha_{2}}{\omega_{0}^{2}} g A^{2}{\left (T_{1} \right )} e^{2 i T_{0} \omega_{0}} - 
+\alpha_{2} A^{3}{\left (T_{1} \right )} e^{3 i T_{0} \omega_{0}}
+\nonumber \\
+&-\underbrace{\left[
+\frac{3 \alpha_{2}}{\omega_{0}^{4}} g^{2} A{\left (T_{1} \right )} +  2 i \omega_{0} \frac{dA{\left (T_{1} \right )}}{d T_{1}}
+\right]
+e^{i T_{0} \omega_{0}}}_\text{secular term}
+\end{align}
+%
+
+As can be seen above, the frequency of secular term is the same as the natural frequency of the system and it will cause resonance. For this not to happen, we set the coefficient of the secular term equal to zero. To solve differential equation, we assume $A(T_1)$ as follow:
+
+%
+\begin{equation}\label{eq:aAsumption}
+	A(T_1) = a(T_1) e^{ib(T_1)} \Rightarrow
+	\frac{dA}{dT_1} = A' = a' e^{ib} + iab' e^{ib}
+\end{equation}
+%
+
+Substituting Equation \eqref{eq:aAsumption} in the secular term, we get the following system of equations for $a$ and $b$:
+
+%
+\[
+\begin{cases}
+	2\omega_0 a b' + \frac{3\alpha_2}{\omega_0^4}a = 0 \\
+	2 \omega_0 a' = 0
+\end{cases}
+\Rightarrow
+\begin{cases}
+	b = -\frac{3 \alpha_2}{2 \omega_0^5} T_1 \\
+	a' = \text{constant} = \mathcal{C}
+\end{cases}
+\]
+%
+
+Therefore, $A(T_1)$ can be written as
+
+%
+\begin{equation}\label{eq:solutionForA}
+	A(T_1) = \mathcal{C}
+	         \exp\left(\dfrac{3 \alpha_2}{2 \omega_0^5} T_1\right)
+\end{equation}
+%
+
+The particular solution for Equation \eqref{eq:eqForX1} is shown in the following equation. This can be derived using the frequency response function method.
+
+%
+\begin{equation}\label{eq:X1}
+	x_1(T_1) = -\frac{\alpha_2 g^3}{\omega_0^8} -
+	\frac{3 \alpha_2 g A^2(T_1)}{\omega_0^2}
+	\frac{1}{\omega_0^2 - 4\omega_0^2}
+	\exp \left( 2iT_0 \omega_0 \right) -
+	\frac{\alpha_2 g A^3(T_1)}{\omega_0^2}
+	\frac{1}{\omega_0^2 - 9\omega_0^2}
+	\exp \left( 3iT_0 \omega_0 \right)
+\end{equation}
+%
+
+Therefore, by substituting Equations \eqref{eq:x0}, \eqref{eq:solutionForA}, and \eqref{eq:X1} in Equation \eqref{eq:xApprox} the solution of \eqref{eq:EOM} can be written as follows
+
+%
+\begin{align}\label{eq:x}
+	x &= 
+	\mathcal{C}
+	\exp\left(\dfrac{3 \alpha_2}{2 \omega_0^5} T_1\right)
+	\exp \left( i\omega_0 T_0 \right) + \frac{g}{\omega_0^2} \nonumber
+	\\
+	&-\epsilon \frac{\alpha_2 g^3}{\omega_0^8} \nonumber
+	\\
+	&-\epsilon \frac{3 \alpha_2 g \mathcal{C}^2}{\omega_0^2}
+	\frac{1}{\omega_0^2 - 4\omega_0^2}
+	\exp \left( \dfrac{6 \alpha_2}{2 \omega_0^5} T_1 \right)
+	\exp \left( 2iT_0 \omega_0 \right)
+	 \nonumber
+	\\
+	&-\epsilon \frac{\alpha_2 g \mathcal{C}^3}{\omega_0^2}
+	\frac{1}{\omega_0^2 - 9\omega_0^2}
+	\exp \left( \dfrac{9 \alpha_2}{2 \omega_0^5} T_1 \right)
+	\exp \left( 3iT_0 \omega_0 \right)
+\end{align}
+%
+
+where
+
+%
+\begin{align*}
+	T_0 = t \\
+	T_1 = \frac{t}{\epsilon}
+\end{align*}
+%
+
+The response contains a time \emph{independent} term ($\dfrac{g}{\omega_0^2} - \epsilon \dfrac{\alpha_2 g^3}{\omega_0^8}$) that corresponds to the initial shift caused by the weight of the structure ($mg$) and couple of oscillatory terms. The oscillatory terms are the harmonics of the natural frequency of the linear system ($\omega_0$) with is expected for systems like this.
+
+The amplitude of the response, is the coefficient of exponentials with \emph{imaginary} exponents.

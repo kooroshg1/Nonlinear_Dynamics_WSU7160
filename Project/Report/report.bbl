@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{ashley2012piston}
+Ashley, H., \enquote{Piston theory-a new aerodynamic tool for the
+  aeroelastician,} {\em Journal of the Aeronautical Sciences\/}, Vol.~23,
+  No.~12, 1956, pp.~1109--1118.
+
+\bibitem{mcnamara2011aeroelastic}
+McNamara, J.~J. and Friedmann, P.~P., \enquote{Aeroelastic and
+  aerothermoelastic analysis in hypersonic flow: past, present, and future,}
+  {\em Aiaa Journal\/}, Vol.~49, No.~6, 2011, pp.~1089--1122.
+
+\end{thebibliography}

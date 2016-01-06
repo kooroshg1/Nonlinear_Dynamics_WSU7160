@@ -1,0 +1,193 @@
+\textbf{Problem definition}:
+Determine a two-term expansion for the relationship between frequency and response amplitude for the following
+
+%
+\begin{equation}\label{eq:Q1}
+	m \ddot{x} + k_1 x + k_3 x^3 = mg
+\end{equation}
+%
+
+\noindent\hrulefill
+
+% -------------------------------------------------------------------
+\textbf{Solution approach:}
+To calculate the stationary point of Equation \eqref{eq:Q1}, we need to set the time derivative equal to zero. By doing this we end up with a cubic polynomial as shown in Equation \eqref{eq:stationaryPoint} that has a root $x_0$.
+
+\begin{equation}\label{eq:stationaryPoint}
+	k_3 x_0^3 + k_1 x_0 - mg = 0
+\end{equation}
+
+$x_0$ is calculated as follows:
+
+%
+\begin{equation}
+	x_0 = \mathcal{A} - \frac{k_1}{3 \mathcal{A} k_3} \quad , \quad 
+	\mathcal{A} =
+	\left(
+	\left(
+	\frac{k_1^3}{27 k_3^3} + \frac{m^2 g^2}{4 k_3^2}
+	\right)
+	+ \frac{m g}{2 k_3}
+	\right)^{1/3}
+\end{equation}
+%
+
+We define a new variable, $x = x + x_0$, and substitute in Equation \eqref{eq:Q1} to get the following:
+
+\begin{equation}\label{eq:EOM}
+	\ddot{x} + \omega_0^2 x + \epsilon \alpha x^2 + \epsilon \beta x^3 = 0
+\end{equation}
+
+where
+
+\begin{align*}
+	\omega_0^2 &= \frac{k_1 + 3 k_3 x_0^2}{m} \\
+	\epsilon \alpha &= \frac{3 x_0 k_3}{m} \\
+	\epsilon \beta &= \frac{k_3}{m}
+\end{align*}
+
+As can be seen in Equation \eqref{eq:EOM}, by shifting the coordinates to the equilibrium point, the constant term disappears. Next we define our differential operators as follow:
+
+%
+\begin{subequations}\label{eq:operators}
+\begin{equation}
+	\frac{d}{dt^2} = D_0^2 + 2 \epsilon D_0 D_1 + \epsilon^2 					\left(D_1^2 + 2 D_0 D_2\right)
+\end{equation}
+\begin{equation}
+	\frac{d}{dt} = D_0 + \epsilon D_1
+\end{equation}
+\end{subequations}
+%
+
+$x$ is approximated using the following equation:
+
+%
+\begin{equation}\label{eq:xApprox}
+	x(t) = x_0 (T_0, T_1, T_2) + 
+	       \epsilon x_1 (T_0, T_1, T_2)
+\end{equation}
+%
+
+Substituting \eqref{eq:operators} and \eqref{eq:xApprox} in \eqref{eq:EOM} and gathering the coefficients of $\epsilon^0$ and $\epsilon^1$ we get the following equations:
+
+%
+\begin{subequations}\label{eq:EOMeps}
+\begin{align}
+	\epsilon^0 : \quad D_{0}^{2} x_{0} + \omega_{0}^{2} x_{0} &= 0
+	\label{eq:EOMeps1}
+	\\
+	\epsilon^1 : \quad D_{0}^{2} x_{1} + \omega_{0}^{2} x_{1} &= -
+				 \left( 
+				 2 D_{0} D_{1} x_{0} + 
+				 \alpha x_0^2 + 
+				 \beta x_0^3
+				 \right)
+	\label{eq:EOMeps2}
+\end{align}
+\end{subequations}
+%
+
+For Equation \eqref{eq:EOMeps1}, we get the following solution. Here, we assumed that the amplitude of the solution, $A$, is only a function of $T_1$. 
+
+%
+\begin{equation}\label{eq:x0}
+	x_0 \left( T_0, T_1 \right) = 
+	A e^{i\omega_0 T_0} + \bar{A} e^{-i\omega_0 T_0}
+\end{equation}
+%
+
+It should be noted that $\bar{A}$ is the complex conjugate of $A$. Substituting Equation \eqref{eq:x0} into Equation \eqref{eq:EOMeps2} we get the following equation
+
+%
+\begin{equation}\label{eq:eqForX1}
+D_{0}^{2} x_{1} + \omega_{0}^{2} x_{1} =
+-\alpha A \bar{A}
+-\alpha A^2 e^{2 i \omega_0 T_0}
+-\beta A^3 3^{3i \omega_0 T_0}
+-\underbrace{\left[
+3\beta A^2 \bar{A} + 
+2i\omega_0 \frac{dA}{dT_1}
+\right]
+e^{i \omega_{0} T_{0}}}_\text{secular term} + \text{ } cc
+\end{equation}
+%
+
+where \lq\lq$cc$\rq\rq\ is the complex conjugate term. As can be seen above, the frequency of secular term is the same as the natural frequency of the system and it will cause resonance. For this not to happen, we set the coefficient of the secular term equal to zero. To solve the resulting differential equation for the secular term, we assume $A(T_1)$ as follow:
+
+%
+\begin{equation}\label{eq:aAsumption}
+	A(T_1) = a(T_1) e^{ib(T_1)} \Rightarrow
+	\frac{dA}{dT_1} = A' = a' e^{ib} + iab' e^{ib}
+\end{equation}
+%
+
+Substituting Equation \eqref{eq:aAsumption} in the secular term, we get the following system of equations for $a$ and $b$:
+
+%
+\[
+\begin{cases}
+	a' \omega_0 = 0 \\
+	3\beta - 2 a b' \omega_0 = 0
+\end{cases}
+\Rightarrow
+\begin{cases}
+	a = \text{constant} = \mathcal{C} \\
+	b = \dfrac{3 \beta}{2 \mathcal{C} \omega_0} T_1
+\end{cases}
+\]
+%
+
+Therefore, $A(T_1)$ can be written as
+
+%
+\begin{equation}\label{eq:solutionForA}
+	A(T_1) = \mathcal{C}
+	         e^{\frac{3 \beta}{2 \mathcal{C} \omega_0} T_1 i}
+\end{equation}
+%
+
+The particular solution for Equation \eqref{eq:eqForX1} is shown in the following equation. This can be derived using the frequency response function method.
+
+%
+\begin{equation}\label{eq:X1}
+	x_1(T_1) = 
+	-\frac{\alpha A \bar{A}}{\omega_0^2}
+	-\frac{\alpha A^2}{\omega_0^2 - 4\omega_0^2} e^{2i\omega_0 T_0}
+	-\frac{\beta A^3}{\omega_0^2 - 9\omega_0^2} e^{3i\omega_0 T_0} + cc
+\end{equation}
+%
+
+Therefore, by substituting Equations \eqref{eq:x0}, \eqref{eq:solutionForA}, and \eqref{eq:X1} in Equation \eqref{eq:xApprox} the solution of \eqref{eq:EOM} can be written as follows
+
+%
+\begin{align}\label{eq:x}
+	x &= 
+	\mathcal{C} e^{i\frac{3 \beta}{2 \mathcal{C} \omega_0} T_1} e^{i\omega_0 T_0}
+	- \epsilon \frac{\mathcal{C}^2}{\omega_0^2}
+	+ \epsilon \frac{\alpha \mathcal{C}^2}{3\omega_0^2} e^{i\frac{3 \beta}{\mathcal{C} \omega_0} T_1} e^{2i\omega_0 T_0}
+	+ \epsilon \frac{\beta \mathcal{C}^3}{8\omega_0^2} e^{i\frac{9 \beta}{2 \mathcal{C} \omega_0} T_1}e^{3i\omega_0 T_0} + cc
+\end{align}
+%
+
+This can further be simplified to
+
+%
+\begin{align}\label{eq:x}
+	x &= 
+	\mathcal{C} e^{i \left( \frac{3 \beta}{2 \mathcal{C} \omega_0} T_1 + \omega_0 T_0 \right)}
+	- \epsilon \frac{\mathcal{C}^2}{\omega_0^2}
+	+ \epsilon \frac{\alpha \mathcal{C}^2}{3\omega_0^2} e^{i \left(\frac{3 \beta}{\mathcal{C} \omega_0} T_1 + 2\omega_0 T_0\right)}
+	+ \epsilon \frac{\beta \mathcal{C}^3}{8\omega_0^2} e^{i \left( \frac{9 \beta}{2 \mathcal{C} \omega_0} T_1 + 3\omega_0 T_0 \right)} + cc
+\end{align}
+%
+
+where
+
+%
+\begin{align*}
+	T_0 = t \\
+	T_1 = \epsilon t
+\end{align*}
+%
+
+The oscillatory terms are the harmonics of the natural frequency of the linear system ($\omega_0$) with is expected for systems like this. The amplitude of the response, is the coefficient of exponentials. 

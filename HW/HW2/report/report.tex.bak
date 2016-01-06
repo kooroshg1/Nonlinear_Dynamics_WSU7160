@@ -1,0 +1,122 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage[margin=2.0cm]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
+\begin{document}
+\begin{flushleft}
+{\large\textbf{Construct the phase portrait for Problem 2.1g of Nayfeh and Mook.}}
+\end{flushleft}
+
+The potential function for the following equation can be constructed by integrating the force function, $f(x)$. The equation of motion is defined as
+%
+\begin{equation}\label{eq:equationOfMotion}
+	\ddot{u} + u - \frac{\lambda}{a - u} = 0
+\end{equation}
+%
+The force function in above equation is
+%
+\begin{equation}
+	f(u) = u - \frac{\lambda}{a - u}
+\end{equation}
+%
+Therefore, the potential function can be calculated as:
+%
+\begin{subequations}
+\begin{align*}
+	F(u) &= \int f(u) du \\
+		&= \int u - \frac{\lambda}{a - u} = \frac{u^2}{2} + \lambda \ln \left( |a - u| \right)
+\end{align*}
+\end{subequations}
+%
+Therefore, the potential function can be written as:
+%
+\begin{equation}
+	F(u) = \frac{u^2}{2} + \lambda \ln \left( |a - u| \right)
+\end{equation}
+%
+Furthermore, we can calculate the equilibrium points by setting the time derivative in Equation \eqref{eq:equationOfMotion} equal to zero. The equilibrium points are calculated as follows:
+%
+\begin{subequations}\label{eq:equilibriumPoints}
+\begin{align}
+	u_{eq_1} = \frac{a + \sqrt{a^2 - 4\lambda}}{2} \\
+	u_{eq_2} = \frac{a - \sqrt{a^2 - 4\lambda}}{2}
+\end{align}
+\end{subequations}
+%
+As can be seen in Equation \eqref{eq:equilibriumPoints}, based on $a$, and $\lambda$ we have three cases for the equilibrium points.
+%
+\begin{itemize}
+	\item $a^2 - 4\lambda > 0$ : Two equilibrium points
+	\item $a^2 - 4\lambda = 0$ : One equilibrium points
+	\item $a^2 - 4\lambda < 0$ : No equilibrium points
+\end{itemize}
+%
+We plotted the potential energy function, $F(u)$, for $u \in [-3.0,\ 3.0]$ for different cases of $a$ and $\lambda$ in Figure \ref{fig:potentialFunction}. The equilibrium points are calculated buy Equation \eqref{eq:equilibriumPoints}. As can be seen in the following figures, the equilibrium points are locations where the slope of the potential function is zero. For the first case, when there are two equilibrium points, one of them is stable and the other one is an unstable point.
+%
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[h]{8.0 cm}
+		\includegraphics[width=8.0 cm]{figure/a10_lambda0.eps}
+		\caption{$a=1.0,\ \lambda = 0.0$}
+	\end{subfigure}
+	\begin{subfigure}[h]{8.0 cm}
+        \includegraphics[width=8.0 cm]{figure/a20_lambda2.eps}
+		\caption{$a=2.0,\ \lambda = 0.2$}
+    \end{subfigure}
+    \\
+    \begin{subfigure}[h]{8.0 cm}
+		\includegraphics[width=8.0 cm]{figure/a30_lambda10.eps}
+		\caption{$a=3.0,\ \lambda = 1.0$}
+	\end{subfigure}
+	\begin{subfigure}[h]{8.0 cm}
+        \includegraphics[width=8.0 cm]{figure/a40_lambda40.eps}
+		\caption{$a=4.0,\ \lambda = 1.0$}
+    \end{subfigure}
+    \\
+    	\begin{subfigure}[h]{8.0 cm}
+        \includegraphics[width=8.0 cm]{figure/a50_lambda70.eps}
+		\caption{$a=5.0,\ \lambda = 7.0$}
+    \end{subfigure}
+    \caption{Potential energy vs. displacement for different values of $a$ and $\lambda$. The white circle corresponds to the equilibrium point of the system.}
+    \label{fig:potentialFunction}
+\end{figure}
+%
+To draw the phase plot, the equation of motion needs to put into the state form. This is done by defining new variable $u_1$ and $u_2$ and rewriting Equation \eqref{eq:equationOfMotion} in the following form.
+%
+\begin{equation}\label{eq:stateEquation}
+	\begin{cases}
+    \dot{u}_1 = u_2 \\
+    \dot{u}_2 = -u_1 + \dfrac{\lambda}{a - u_1}
+	\end{cases}
+\end{equation}
+%
+The phase plot ($\dot{u}$ vs. $u$) of this system is shown in Figure \ref{fig:phasePlot}. The lines represents different trajectories of the solution for different boundary condition. These are calculated by integrating Equation \eqref{eq:stateEquation} using \texttt{odeint} function in \texttt{Python}.
+%
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[h]{8.0 cm}
+		\includegraphics[width=8.0 cm]{figure/phase_a40_lambda0.eps}
+		\caption{$a=4.0,\ \lambda = 0.0$}
+	\end{subfigure}
+	\begin{subfigure}[h]{8.0 cm}
+        \includegraphics[width=8.0 cm]{figure/phase_a40_lambda10.eps}
+		\caption{$a=4.0,\ \lambda = 1.0$}
+    \end{subfigure}
+    \\
+    \begin{subfigure}[h]{8.0 cm}
+		\includegraphics[width=8.0 cm]{figure/phase_a20_lambda10.eps}
+		\caption{$a=2.0,\ \lambda = 1.0$}
+	\end{subfigure}
+	\begin{subfigure}[h]{8.0 cm}
+        \includegraphics[width=8.0 cm]{figure/phase_a20_lambda20.eps}
+		\caption{$a=2.0,\ \lambda = 2.0$}
+    \end{subfigure}
+    \caption{Phase plot and trajectories of the solution for different values of $a$, $\lambda$, and boundary conditions. $+$ represents the initial point and $\circ$ represents the final point of the trajectory.}
+    \label{fig:phasePlot}
+\end{figure}
+%
+\end{document}

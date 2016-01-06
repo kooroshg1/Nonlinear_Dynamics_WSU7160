@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{oppenheimer2007flexible}
+Michael~W Oppenheimer, Torstens Skujins, David~B Doman, and Michael~A Bolender.
+\newblock A flexible hypersonic vehicle model developed with piston theory
+  (preprint).
+\newblock Technical report, DTIC Document, 2007.
+
+\bibitem{gilmore1991nonlinear}
+Rowan~J Gilmore and Michael~B Steer.
+\newblock Nonlinear circuit analysis using the method of harmonic balance—a
+  review of the art. part i. introductory concepts.
+\newblock {\em International Journal of Microwave and Millimeter-Wave
+  Computer-Aided Engineering}, 1(1):22--37, 1991.
+
+\bibitem{ribeiro2004non}
+P~Ribeiro.
+\newblock Non-linear forced vibrations of thin/thick beams and plates by the
+  finite element and shooting methods.
+\newblock {\em Computers \& structures}, 82(17):1413--1423, 2004.
+
+\bibitem{mcnamara2011aeroelastic}
+Jack~J McNamara and Peretz~P Friedmann.
+\newblock Aeroelastic and aerothermoelastic analysis in hypersonic flow: past,
+  present, and future.
+\newblock {\em Aiaa Journal}, 49(6):1089--1122, 2011.
+
+\end{thebibliography}

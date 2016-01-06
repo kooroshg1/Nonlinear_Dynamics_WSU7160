@@ -1,0 +1,135 @@
+\documentclass[14pt, a4paper]{extreport}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{wasysym}
+\usepackage[procnames]{listings}
+\usepackage{color}
+
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{0,0,113}
+\definecolor{red}{RGB}{160,0,0}
+\definecolor{green}{RGB}{0,150,0}
+ 
+\lstset{language=Python, 
+        basicstyle=\ttfamily\small, 
+        keywordstyle=\color{keywords},
+        commentstyle=\color{comments},
+        stringstyle=\color{red},
+        showstringspaces=false,
+        identifierstyle=\color{green},
+        procnamekeys={def,class}}
+% ===============================================================
+\begin{document}
+\textbf{Problem definition:} Determine the decay envelope using the method of multiple scales.
+
+%
+\begin{equation}\label{eq:GE}
+	\ddot{x} + \omega_0^2 x = \epsilon \left( \dot{x} - \dot{x}^3 \right)
+\end{equation}
+%
+
+We define our differential operators as follow:
+
+%
+\begin{subequations}\label{eq:operators}
+\begin{align}
+	\frac{d}{dt^2} &= D_0^2 + 2 \epsilon D_0 D_1 + \epsilon^2 					\left(D_1^2 + 2 D_0 D_2\right)
+	\\
+	\frac{d}{dt} &= D_0 + \epsilon D_1
+\end{align}
+\end{subequations}
+%
+
+We approximate $x$ as follows:
+
+%
+\begin{equation}\label{eq:xApprox}
+	x(t) = x_0 (T_0, T_1, T_2) + 
+	       \epsilon x_1 (T_0, T_1, T_2)
+\end{equation}
+%
+
+Substituting Equations \eqref{eq:operators} and \eqref{eq:xApprox} into \eqref{eq:GE} and grouping terms with respect to $\epsilon$ we get the following system of equations:
+
+%
+\begin{subequations}\label{eq:EOMeps}
+\begin{align}
+	\epsilon^0 : \quad D_{0}^{2} x_{0} + \omega_{0}^{2} x_{0} &= 0
+	\label{eq:EOMeps0}
+	\\
+	\epsilon^1 : \quad D_{0}^{2} x_{1} + \omega_{0}^{2} x_{1} &= -
+				 \left(
+				 D_0^3 x_0^3 + 
+				 2 D_{0} D_{1} x_{0} - 
+				 D_0 x_0
+				 \right)
+	\label{eq:EOMeps1}
+\end{align}
+\end{subequations}
+%
+
+We assume the solution of Equation \eqref{eq:EOMeps0} as follows:
+
+%
+\begin{equation}\label{eq:x0}
+	x_0 = A(T_1) \exp \left( i\omega_0 T_0 \right) + cc
+\end{equation}
+%
+
+Substituting this equation into Equation \eqref{eq:EOMeps1} we get:
+
+%
+\begin{equation}
+	D_{0}^{2} x_{1} + \omega_{0}^{2} x_{1} =
+	\left[
+	A(T_1) - \frac{dA(T_1)}{dT_1}
+	\right]
+	2i \exp \left( iT_0 \right)
+\end{equation}
+%
+
+To remove the secular terms, the coefficient of the exponential needs to be equal to zero. By assuming $A(T_1)$ in the form of $a(T_1) \exp (ib(T_1))$ we get:
+
+%
+\begin{subequations}
+\begin{align*}
+	a &= \exp\left( T_1 \right) \\
+	b' &= 0 \Rightarrow b = \mathcal{C}
+\end{align*}
+\end{subequations}
+%
+
+The particular solution of Equation \eqref{eq:EOMeps1} can be written as:
+
+%
+\begin{equation}\label{eq:x1}
+	x_1 = A(T_1) \exp \left( i\omega_0 T_0 \right)
+\end{equation}
+%
+
+Finally by substituting Equations \eqref{eq:x0} and \eqref{eq:x1} into \eqref{eq:xApprox}, the solution to \eqref{eq:GE} can be written as:
+
+%
+\begin{equation}
+	x(t) = e^{T_1 + i\mathcal{C}} \exp \left( i\omega_0 T_0 \right) + 
+	       \epsilon
+	       \left[
+	       e^{T_1 + i\mathcal{C}} \exp \left( i\omega_0 T_0 \right)
+	       \right]
+\end{equation}
+% 
+
+The decay envelop is:
+
+%
+\begin{equation}
+	\left( 1 + \epsilon \right) e^{T_1 + i\mathcal{C}}
+\end{equation}
+%
+
+This means that the amplitude of the vibrations increases. This is true due to negative damping coefficient in Equation \eqref{eq:GE}.
+\end{document}
